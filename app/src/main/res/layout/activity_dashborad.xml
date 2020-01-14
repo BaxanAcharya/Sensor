@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   android:gravity="center"
+    tools:context=".DashboradActivity">
+
+    <Button
+       android:id="@+id/btna"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accelerometer"/>
+
+    <Button
+        android:id="@+id/btnl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List Sensor"/>
+
+
+    <Button
+        android:id="@+id/btng"
+        android:layout_width="match_parent"
+        android:text="Gyroscope"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnp"
+        android:layout_width="match_parent"
+        android:text="Proximity"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
